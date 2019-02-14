@@ -5,7 +5,8 @@ def line(people)
    output = "The line is currently: "
     i = 0
    while i < people.length
-    output += #{i+1}. people[i]
+    name = people[i]
+    output += "#{i+1}. #{name}  "
        i += 1
     end
      puts output
