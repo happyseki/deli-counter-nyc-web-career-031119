@@ -15,10 +15,10 @@ end
 
 def take_a_number(people, name)
   if people == []
-  "Welcome, #{name}. You are number 1 in line."
+    puts "Welcome, #{name}. You are number 1 in line."
      people << name
   else
-    "Welcome, #{name}. You are number #{people.length+1} in line."
+    puts "Welcome, #{name}. You are number #{people.length+1} in line."
     people << name
   end
 end
