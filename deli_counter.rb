@@ -11,4 +11,7 @@ def line(people)
      puts output
   end
 end
+
+
+
 # Write your code here.
