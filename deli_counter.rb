@@ -13,6 +13,9 @@ def line(people)
   end
 end
 
+def take_a_number(people)
+  
+end
 
 
 # Write your code here.
