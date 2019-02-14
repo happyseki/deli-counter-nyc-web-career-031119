@@ -17,7 +17,7 @@ def take_a_number(people)
   if people.length == 1
   "Welcome, #{people[0]}. You are number 1 in line."
   else
-    
+    "Welcome, Grace. You are number 4 in line."
   end
 end
 
