@@ -19,6 +19,7 @@ def take_a_number(people, name)
      people << name
   else
     "Welcome, #{name}. You are number #{people.length+1} in line."
+    people << name
   end
 end
 
