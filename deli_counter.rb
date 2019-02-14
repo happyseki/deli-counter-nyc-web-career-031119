@@ -6,7 +6,7 @@ def line(people)
     i = 0
    while i < people.length
     name = people[i]
-    output += " #{i+1}. #{name}  "
+    output += " #{i+1}. #{name} "
        i += 1
     end
      puts output
